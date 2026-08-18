@@ -3,7 +3,7 @@ import { Profesor } from "../src/Profesor";
 
 describe("Profesor", () => {
 
-    test("Un Profesor con el legajo 18", () => {
+    test("Un Profesor con el nombre Juan", () => {
     const profesor = new Profesor("Juan", 18);
     expect(profesor.nombre).toBe("Juan")
     });
