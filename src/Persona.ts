@@ -1,4 +1,4 @@
-export class Profesor {
+export class Persona {
     constructor(
         public nombre: string,
         public legajo: number
